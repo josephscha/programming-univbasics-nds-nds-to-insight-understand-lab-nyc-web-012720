@@ -9,9 +9,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  directors_datebase = dd
   row_index = 0
-  while row_index < (directors_datebase[0][:movies].length) do 
-    puts (directors_datebase[0][:movies][row_index][:title])
+  while row_index < (dd[0][:movies].length) do 
+    puts (dd[0][:movies][row_index][:title])
     row_index += 1
   end
 end
