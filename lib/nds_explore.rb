@@ -13,4 +13,5 @@ def print_first_directors_movie_titles
   while row_index < (directors_datebase[0][:movies].length) do 
     puts (directors_datebase[0][:movies][row_index][:title])
     row_index += 1
+  end
 end
